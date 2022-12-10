@@ -4,8 +4,8 @@ import css from './FeedbackWidget.module.css';
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
         <div className={css.box_feedback}>
-            {Object.keys(options).map(option => 
-                <button className={css.button} key={option} type="button" onClick={onLeaveFeedback}>{option}</button>)}
+            {options.map(option => 
+                <button className={css.button} key={option} type="button" onClick={()=>onLeaveFeedback(option)}>{option}</button>)}
         </div>
     )
 };

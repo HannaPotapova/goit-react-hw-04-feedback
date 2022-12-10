@@ -12,9 +12,9 @@ const Statistics = ({ onStateGood, onStateNeutral, onStateBad, onStateTotal, onS
 );
 
 Statistics.propTypes = {
-    onStateGood: PropTypes.string,
-    onStateNeutral: PropTypes.string,
-    onStateBad: PropTypes.string,
+    onStateGood: PropTypes.number,
+    onStateNeutral: PropTypes.number,
+    onStateBad: PropTypes.number,
     onStateTotal: PropTypes.func,
     onStatePercentage: PropTypes.func,
 }
