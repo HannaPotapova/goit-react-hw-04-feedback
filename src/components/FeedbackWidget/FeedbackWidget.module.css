@@ -1,0 +1,56 @@
+.box {
+    width: 600px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    border: 2px solid salmon;
+}
+
+.box_feedback {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.application {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: wheat
+}
+
+.button {
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: sandybrown;
+    color: white;
+    box-shadow: 2px 2px 4px gray;
+}
+.statistic {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.statistic_title {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title:hover {
+    scale: 1.3;
+}
